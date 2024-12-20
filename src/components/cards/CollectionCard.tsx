@@ -19,7 +19,7 @@ const CollectionCard: React.FC<CollectionCardProps> = ({ collectionData }) => {
             </div>
             <div className="flex justify-between mt-3">
                 <p className="text-2xl font-bold text-left text-black">{collectionData.title}</p>
-                <Label text={`${collectionData.upperBTCPrice} NTF` } />
+                <Label text={`${collectionData.NFTs.length} NFTs` } />
             </div>
                 <div>
                     <p className="text-sm text-left text-[#617587]">Price Range: {`${collectionData.lowerBTCPrice} - ${collectionData.upperBTCPrice} BTC`}</p>
