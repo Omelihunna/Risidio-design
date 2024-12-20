@@ -7,10 +7,10 @@ function App() {
 
   return (
     <Routes>
-      <Route path={"/"} element={<DashboardPage />} /> 
-      <Route path={"/collection"} element={<CollectionPage />} /> 
-      <Route path={"/wallet-connect"} element={<WalletConnectPage />} /> 
-      </Routes>
+      <Route path={"/"} element={<DashboardPage />} />
+      <Route path={"/collection"} element={<CollectionPage />} />
+      <Route path={"/wallet-connect"} element={<WalletConnectPage />} />
+    </Routes>
   )
 }
 
